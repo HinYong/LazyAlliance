@@ -1,0 +1,168 @@
+page{
+  background: rgb(208, 240, 245)
+}
+
+
+.active {
+  background-color: #6d97f8;
+  border: 2px solid rgb(53, 151, 231);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.noactive {
+  background-color: white;
+  border: 2px solid rgb(53, 151, 231);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+ 
+.btnView {
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+ 
+.btnView view {
+  width: 210rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  border-radius: 10rpx;
+}
+ 
+.otherText {
+  /* color: black; */
+  font-size: 38rpx;
+  font-weight: 600;
+}
+ 
+.inputView {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 38rpx;
+  color: white;
+}
+ 
+.zidyText {
+  font-size: 35rpx;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+ 
+.bgView {
+  background-image: linear-gradient(0deg, #6d97f8, #5cb3f3);
+  height: 150rpx;
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.titleBox{
+  text-align: center;
+}
+.title {
+  color: white;
+  font-size: 28rpx;
+}
+.titleView{
+  margin-bottom: 20rpx;
+}
+ 
+.num{
+  color: white;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+ 
+.czhiView{
+  width: 100%;
+  height: 100rpx;
+  padding: 0rpx 30rpx;
+  margin-bottom: 10rpx;
+}
+ 
+.czhiView text{
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+.czhiBox{
+  width: 100%;
+}
+.btnczhi{
+  display: flex;
+  width: 40%;
+  background-image: linear-gradient(45deg, #6d97f8, #5cb3f3);
+  height: 80rpx;
+  border-radius: 10rpx;
+  justify-content: center;
+  margin:0 auto;
+  text-align: center;
+}
+.btnczhi button{
+  border: 2px solid rgb(53, 151, 231);
+  color: rgb(15, 15, 15);
+  font-size: 45rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.btn1 {
+  width: 35%;
+  height: 25%;
+  margin-top: 30rpx;
+  background-color:white;
+  font-size: 45rpx;
+  color: black;
+  border: 2px solid rgb(53, 151, 231);
+  border-radius: 98rpx; 
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+}
+
+.title {
+  font-size: 20px;
+  color: rgb(36, 31, 31);
+  margin-left:38%;
+  float:left;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+input{
+  border: 1px solid #000;
+  padding: 10px;
+  border-color: #61a1ff;
+  border-width: 6rpx 6rpx 6rpx 6rpx;
+  margin-left: 75rpx;
+  margin-right: 75rpx;
+  margin-bottom: 50rpx;
+  border-radius: 98rpx; 
+  background-color: white;
+}

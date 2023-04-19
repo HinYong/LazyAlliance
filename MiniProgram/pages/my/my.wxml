@@ -1,0 +1,53 @@
+<!--pages/my/my.wxml-->
+<view>
+  <view class="user_edit_con" >
+    <button class="avatar-btn" bindtap="setPhotoInfo">
+      <image  wx:if="{{imgUrl!=null}}"   class="userinfo-avatar" src="{{imgUrl}}" background-size="cover"></image>
+    </button> 
+    <button class="nickname-btn" bindtap="goToLoginPage">
+      <view>{{name}}</view>
+    </button>
+  </view>
+  <view class="user_edit_con" >
+      <view class="user_edit_li" bindtap="goToBalPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/bcc3b30959b707fa.png" ></image></view>
+          <view class="tips1">余额</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+      <view class="user_edit_li" bindtap="goToHtyPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/7149447ab79d6062.png" ></image></view>
+          <view class="tips1">历史订单</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+      <view class="user_edit_li" bindtap="goToRepPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/811927c0c89949c4.png" ></image></view>
+          <view class="tips1">信誉中心</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+  </view>
+  <view class="user_edit_con" >
+    <view class="user_edit_li" bindtap="goToSetPage">
+      <view class="user_edit_li_title">
+        <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/af337599cffa6660.png" ></image></view>
+        <view class="tips1">设置</view>
+        <view class="tips2">></view>
+      </view>
+    </view>
+  </view>
+  <view class="user_edit_con" >
+    <view class="user_edit_li" bindtap="goToContactPage">
+      <view class="user_edit_li_title">
+        <view class="tips1"><image class = "ima" src = "http://i2.tiimg.com/736358/f3383d7dc904b969.png" ></image></view>
+        <view class="tips1">联系我们</view>
+        <view class="tips2">></view>
+      </view>
+    </view>
+  </view>
+  
+</view>

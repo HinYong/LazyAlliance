@@ -1,0 +1,45 @@
+<!--pages/my/Set/Set.wxml-->
+<view>
+  <view>
+    <view class="block-title">
+        <text class="title">设置 </text>
+        <text>\n</text>
+    </view>
+  </view>
+  <view class="user_edit_con" >
+    <view class="user_edit_li" bindtap="goToYhmPage">
+      <view class="user_edit_li_title">
+        <view class="tips2"><image class = "ima" src = "http://i1.fuimg.com/736358/4f6318a62e630b4a.png" ></image></view>
+        <view class="tips2">用户名修改</view>
+        <view class="tips3">></view>
+      </view>
+    </view>
+  </view>
+  <!--<text>\n</text>-->
+  <view class="user_edit_con" >
+    <view class="user_edit_li" bindtap="goToMimaPage">
+      <view class="user_edit_li_title">
+        <view class="tips2"><image class = "ima" src = "http://i1.fuimg.com/736358/c474de19eb12ee40.png" ></image></view>
+        <view class="tips2">用户密码修改</view>
+        <view class="tips3">></view>
+      </view>
+    </view>
+  </view>
+  <!--<text>\n</text>-->
+  <view class="user_edit_con" >
+    <view class="user_edit_li" bindtap="goToTelePage">
+      <view class="user_edit_li_title">
+        <view class="tips2"><image class = "ima" src = "http://i1.fuimg.com/736358/8a3eea99f777b4d2.png" ></image></view>
+        <view class="tips2">用户电话修改</view>
+        <view class="tips3">></view>
+      </view>
+    </view>
+  </view>
+  <view class="user_edit_con" >
+    <view class="user_edit_li" bindtap="quit">
+      <view class="user_edit_li_title">
+        <view class="tips1">退出登录</view>
+      </view>
+    </view>
+  </view>
+</view>

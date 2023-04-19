@@ -1,0 +1,43 @@
+/* pages/demo/demo.wxss */
+.title1{
+  color: red;
+  margin: 40px;
+  padding: 20px;
+  border: 1px solid gold;
+}
+.tip1{
+  color: palevioletred;
+  width: 6px;
+  display: inline-block;
+}
+.tip2{
+  color: gray;
+  width: 6px;
+  display: block;
+}
+
+.service-btn{
+  margin-left:6.66%;
+  color: rgb(0, 0, 0);
+  margin-top:4%;
+  height: 300rpx;
+  line-height: 300rpx;
+  width: 40%;
+  float:left;
+  padding:0; 
+}
+.service-btn::after{ border:none; }
+
+.page {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10rpx;
+}
+.title {
+  font-size: 20px;
+  color: rgb(36, 31, 31);
+  margin-left:33%;
+}

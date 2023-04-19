@@ -1,0 +1,21 @@
+<!--pages/demo/demo/takeout.wxml-->
+<view>
+  <view class="block-title">
+    <text>\n</text>
+    <text class="title">外卖代拿 </text>
+  </view>
+</view>
+
+<form bindsubmit="formtakeoutsubmit">
+  <text>\n</text>
+  <input name="requestID" placeholder="请输入外卖单号"></input>
+  <input name="requestName" placeholder="请输入订餐人姓名"></input>
+  <input name="requestPhone" placeholder="请输入订餐人联系方式"></input>
+  <input name="requestDeparture" placeholder="请输入取餐地"></input>
+  <input name="requestDestination" placeholder="请输入目的地"></input>
+  <input name="requestDemand" placeholder="外卖描述(商家，送达时间)"></input>
+  <input name="requestPrice" placeholder="请输入佣金"></input>
+  <button class="btn1" form-type="submit">提交请求</button>
+  <button class="btn1" form-type="reset">清空</button>
+  <text>\n</text>
+</form>

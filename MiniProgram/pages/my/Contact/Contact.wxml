@@ -1,0 +1,18 @@
+<!--pages/my/Contact/Contact.wxml-->
+<!--pages/my/Info/Info.wxml-->
+<view class="main">
+    <view class="mcname">联系我们</view>
+    <text >\n</text>
+    <view class="mcinfo">
+        <text class="mctlt">Tel：</text>
+        <text class="mcval">17866553100</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">QQ：</text>
+        <text class="mcval">1174788253</text>
+    </view>
+    <view class="mcinfo" open-type="contact">
+        <text class="mctlt">E-mail：</text>
+        <text class="mcval">1174788253@qq.com</text>
+    </view>
+</view>

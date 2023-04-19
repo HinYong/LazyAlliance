@@ -1,0 +1,59 @@
+<!--pages/index/indetail/indetail.wxml-->
+
+<view class="main">
+    
+    <view class="mcname">订单详情</view>
+    <text >\n</text>
+    <view class="mcinfo">
+        <text class="mctlt">订单编号：</text>
+        <text class="mcval">{{orderId}}</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">求助人：</text>
+        <text class="mcval">{{seekerId}}</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">帮助人：</text>
+        <view wx:if="{{helperId==0}}">
+            <text class="mcval">暂无</text>
+        </view>
+        <view wx:else>
+            <text class="mcval">{{helperId}}</text>
+        </view>
+    </view>
+    <view class="mcinfo" open-type="contact">
+        <text class="mctlt">订单时间：</text>
+        <text class="mcval">{{ordertime}}</text>
+    </view>
+    <view class="mcinfo">
+        <text class="mctlt">订单出发地：</text>
+        <text class="mcval">{{departure}}</text>
+    </view>
+    <view class="mcinfo">
+        <text class="mctlt">订单目的地：</text>
+        <text class="mcval">{{destination}}</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">订单金额：</text>
+        <text class="mcval">{{price}}元</text>
+    </view>
+    <view class="mcinfolast" bindtap="click">
+        <text class="mctlt">订单需求：</text>
+        <text class="mcval">{{demand}}</text>
+    </view>
+    <text>\n</text>
+    <view wx:if="{{orderstage == '待接单'}}">
+        <form bindsubmit="cancelOrder">
+            <input name="orderId" value="{{orderId}}" hidden="true"></input>
+            <button class="btn1" form-type="submit">取消订单</button>
+        </form>
+    </view>
+    <view wx:else>
+        <view wx:if="{{helperId!=userId}}">
+            <form bindsubmit="completeOrder">
+                <input name="orderId" value="{{orderId}}" hidden="true"></input>
+                <button class="btn1" form-type="submit">确认完成</button>
+            </form>
+        </view>
+    </view>
+</view>

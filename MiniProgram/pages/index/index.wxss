@@ -1,0 +1,77 @@
+/**index.wxss**/
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active{
+  color: #FFCC00;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #FFCC00;
+}
+.avatar-btn{
+  height: 200rpx;
+  line-height: 200rpx;
+  width: 200rpx;
+  float:left;
+  padding-left: 0rpx;
+}
+
+.nickname-btn-express{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color: #F8DA06;
+}
+
+.nickname-btn-run{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color:#0a8CFE;
+}
+
+.nickname-btn-takeout{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color:#F79E0e;
+}
+
+.nickname-btn-lunch{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color:#DFFF46;
+}
+
+.container1{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.point{
+  height: 200rpx;
+  width: 200rpx;
+  float: left;
+  
+  
+}
+.tont{
+  font-size: 30rpx;
+}

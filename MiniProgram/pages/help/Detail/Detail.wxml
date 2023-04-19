@@ -1,0 +1,41 @@
+<!--pages/help/Detail/Detail.wxml-->
+<view class="main">
+    
+    <view class="mcname">订单详情</view>
+    <text >\n</text>
+    <view class="mcinfo">
+        <text class="mctlt">订单编号：</text>
+        <text class="mcval">{{orderId}}</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">求助人：</text>
+        <text class="mcval">{{seekerId}}</text>
+    </view>
+    <view class="mcinfo" open-type="contact">
+        <text class="mctlt">订单时间：</text>
+        <text class="mcval">{{ordertime}}</text>
+    </view>
+    <view class="mcinfo">
+        <text class="mctlt">订单出发地：</text>
+        <text class="mcval">{{departure}}</text>
+    </view>
+    <view class="mcinfo">
+        <text class="mctlt">订单目的地：</text>
+        <text class="mcval">{{destination}}</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">订单金额：</text>
+        <text class="mcval">{{price}}元</text>  
+    </view>
+    <view class="mcinfolast" bindtap="click">
+        <text class="mctlt">订单需求：</text>
+        <text class="mcval">{{demand}}</text>
+    </view>  
+    <text>\n</text>
+    <form bindsubmit="acceptOrder">
+        <input name="orderId" value="{{orderId}}" hidden="true"></input>
+        <input name="seekerId" value="{{seekerId}}" hidden="true"></input>
+        <button class="btn1" form-type="submit">接取订单</button>
+    </form>
+    
+</view>

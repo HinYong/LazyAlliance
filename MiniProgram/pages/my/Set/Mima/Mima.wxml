@@ -1,0 +1,17 @@
+<!--pages/my/Set/Mima/Mima.wxml-->
+
+<view>
+  <view class="block-title">
+    <text class="title">用户密码修改 </text>
+  </view>
+</view>
+
+<form bindsubmit="formpasswordsubmit">
+  <text>\n</text>
+  <input name="requestpass" placeholder="请输入新的密码"></input>
+  <text>\n</text>
+  <input name="requestrepass" placeholder="请再次输入新的密码"></input>
+  <text>\n</text>
+  <button class="btn1" form-type="submit">确认修改</button>
+  <text>\n</text>
+</form>

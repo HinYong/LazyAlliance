@@ -1,0 +1,20 @@
+<!--pages/appeal/appeal/lunch.wxml-->
+<view>
+  <view class="block-title">
+    <text>\n</text>
+    <text class="title">食堂带饭 </text>
+  </view>
+</view>
+
+<form bindsubmit="formlunchsubmit">
+  <text>\n</text>
+  <input name="requestName" placeholder="请输入联系人"></input>
+  <input name="requestPhone" placeholder="请输入联系方式"></input>
+  <input name="requestDeparture" placeholder="请输入取餐地(食堂，窗口)"></input>
+  <input name="requestDestination" placeholder="请输入目的地"></input>
+  <input name="requestDemand" placeholder="请输入取餐需求"></input>
+  <input name="requestPrice" placeholder="请输入佣金"></input>
+  <button class="btn1" form-type="submit">提交请求</button>
+  <button class="btn1" form-type="reset">清空</button>
+  <text>\n</text>
+</form>

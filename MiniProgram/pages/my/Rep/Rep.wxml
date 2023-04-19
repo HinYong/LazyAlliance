@@ -1,0 +1,16 @@
+<!--pages/my/Rep/Rep.wxml-->
+<view class="user_content">
+  <!--表头-->
+  <view class="user_head">
+    <view class="user_img domain">
+      <view class="userinfo-avatar">信誉值</view>
+      <view class="userinfo_name">{{Rep}}分</view>
+    </view>
+  </view>
+  <view>
+    <view class="block-title">
+      <text>\n</text>
+      <text class="title">{{Reform}} </text>
+    </view>
+  </view>
+</view>

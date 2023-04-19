@@ -1,0 +1,14 @@
+<!--pages/my/Set/Tele/Tele.wxml-->
+<view>
+  <view class="block-title">
+    <text class="title">用户电话修改 </text>
+  </view>
+</view>
+
+<form bindsubmit="formphonesubmit">
+  <text>\n</text>
+  <input name="requestphone" placeholder="请输入新的电话"></input>
+  <text>\n</text>
+  <button class="btn1" form-type="submit">确认修改</button>
+  <text>\n</text>
+</form>

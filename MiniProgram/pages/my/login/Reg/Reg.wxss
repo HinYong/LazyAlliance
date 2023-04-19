@@ -1,0 +1,40 @@
+/* pages/my/login/Reg/Reg.wxss */
+.block-title {
+  text-align: center;
+  line-height: 110rpx;
+  font-size: 42rpx;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  color: #61a1ff
+}
+input{
+  border: 1px solid #000;
+  border-color: #61a1ff;
+  border-width: 6rpx 6rpx 6rpx 6rpx;
+  margin-left: 75rpx;
+  margin-right: 75rpx;
+  border-radius: 98rpx; 
+  padding: 10px;
+}
+
+.btn1 {
+  float: left;
+  width: 35%;
+  margin-top: 20rpx;
+  background-color: green;
+  color: white;
+  border-radius: 98rpx; 
+  margin-left: 78rpx;
+}
+
+.btn2 {
+  float: right;
+  width: 35%;
+  margin-top: 20rpx;
+  background-color: green;
+  color: white;
+  border-radius: 98rpx; 
+  margin-right: 78rpx;
+}

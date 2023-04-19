@@ -1,0 +1,17 @@
+
+<view class="container">
+  <view>
+    <button class="service-btn" bindtap="goToTakeoutPage">
+      <image src = 'http://i1.fuimg.com/736358/fe1f48abe0a9ffc1.jpg' style = "width:300rpx; height:300rpx " ></image>
+    </button>
+    <button class="service-btn" bindtap="goToExpressPage">
+      <image src = 'http://i1.fuimg.com/736358/3155f14f9a1353f1.jpg' style = "width:300rpx; height:300rpx " ></image>
+    </button>
+    <button class="service-btn" bindtap="goToLunchPage">
+      <image src = 'http://i1.fuimg.com/736358/e08f9878ba00247e.jpg' style = "width:300rpx; height:300rpx " ></image>
+    </button>
+    <button class="service-btn" bindtap="goToRunservicePage">
+      <image src = 'http://i1.fuimg.com/736358/61ab529d7c45f594.jpg' style = "width:300rpx; height:300rpx " ></image>
+    </button>
+  </view>
+</view>

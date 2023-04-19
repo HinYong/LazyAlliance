@@ -1,0 +1,19 @@
+<!--pages/my/Bal/Tixian/Tixian.wxml-->
+
+<view class="title">提现金额</view>
+
+<view class="flexCenten">
+  <view class="btnView">
+    <view class="flexCenten {{activeIndex == index ? 'active':'noactive'}}" wx:for="{{numArray}}" wx:key="index" bindtap="activethis" data-thisindex="{{index}}">
+      <text class="otherText">￥{{item}}</text>
+    </view>
+  </view>
+</view>
+
+<form bindsubmit="withdraw">
+  <input name="decrease" placeholder="自定义金额" value="{{price}}"></input>
+  <button class="btn1" form-type="submit">提现</button>
+</form>
+
+
+

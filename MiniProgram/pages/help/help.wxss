@@ -1,0 +1,48 @@
+/* pages/help/help.wxss */
+.avatar-btn{
+  height: 200rpx;
+  line-height: 200rpx;
+  width: 200rpx;
+  float:left;
+  padding-left: 0rpx;
+}
+
+.nickname-btn-express{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color: #F8DA06;
+}
+
+.nickname-btn-run{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color:#0a8CFE;
+}
+
+.nickname-btn-takeout{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color:#F79E0e;
+}
+
+.nickname-btn-lunch{
+  height: 200rpx;
+  line-height: 200rpx;
+  background-color:#DFFF46;
+}
+
+.container1{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.point{
+  height: 200rpx;
+  width: 200rpx;
+  float: left;
+  
+  
+}
+.tont{
+  font-size: 30rpx;
+}

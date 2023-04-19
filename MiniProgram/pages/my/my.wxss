@@ -1,0 +1,80 @@
+/* pages/my/my.wxss */
+page {
+  display: block;
+  min-height: 100%;
+  background-color: rgb(245,245,245);
+}
+
+.avatar-btn{
+  height: 200rpx;
+  line-height: 200rpx;
+  width: 200rpx;
+  float:left;
+  background: #fff;
+  border-bottom: 1px solid #f5f5f5;
+  border-bottom-color: #f5f5f5;
+}
+.nickname-btn{
+  height: 200rpx;
+  line-height: 200rpx;
+  background: #fff;
+  border-bottom: 1px solid #f5f5f5;
+  border-bottom-color: #f5f5f5;
+}
+.tips1{
+  float:left;
+}
+.tips2{
+  float:right;
+}
+
+.container1{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.container2{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 50rpx;
+  width: 100%; 
+}
+.ima{
+  height: 50rpx;
+  width: 50rpx;
+  float:left;
+  margin-top: 35rpx;
+  margin-left: 40rpx;
+  margin-right: 50rpx;
+}
+
+.ima2{
+  height: 150rpx;
+  width: 150rpx;
+  float:left;
+  margin-top: 35rpx;
+  margin-left: -5rpx;
+  margin-right: 60rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 35rpx;
+  border-radius: 50%;
+  }
+
+  .user_edit_con {
+    background: #fff;
+    margin-top:10px;
+}
+
+.user_edit_li_title {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  border-bottom: 1px solid #f5f5f5;
+  border-bottom-color: #f5f5f5;
+  font-size:14px;
+
+}

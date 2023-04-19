@@ -1,0 +1,129 @@
+<!--pages/my/Hty/Hty.wxml-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--求助订单-->
+<view hidden="{{currentTab!==0}}">
+  <view wx:for="{{seekorderlist}}" wx:for-item="item">
+    <view class="container1">
+      <form bindsubmit="goToDetailPage">
+        <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+        <button class="avatar-btn" form-type="submit">
+          <view wx:if="{{item.ordertype == 0}}">
+            <image class = "point" src = 'http://i1.fuimg.com/736358/fe1f48abe0a9ffc1.jpg'></image>
+          </view>
+          <view wx:elif="{{item.ordertype == 1}}">
+            <image class = "point" src = 'http://i1.fuimg.com/736358/3155f14f9a1353f1.jpg'></image>
+          </view>
+          <view wx:elif="{{item.ordertype == 2}}">
+            <image class = "point" src = 'http://i1.fuimg.com/736358/e08f9878ba00247e.jpg'></image>
+          </view>
+          <view wx:else>
+            <image class = "point" src = 'http://i1.fuimg.com/736358/61ab529d7c45f594.jpg'></image>
+          </view>
+        </button>
+      </form>
+      <view wx:if="{{item.ordertype == 0}}">
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-takeout" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+      <view wx:elif="{{item.ordertype == 1}}">
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-express" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+      <view wx:elif="{{item.ordertype == 2}}">
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-lunch" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+      <view wx:else>
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-run" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+    </view>
+  </view>
+</view>
+ 
+<!--帮助订单-->
+<view hidden="{{currentTab!==1}}">
+  <view wx:for="{{helporderlist}}" wx:for-item="item">
+    <view class="container1">
+      <form bindsubmit="goToDetailPage">
+        <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+        <button class="avatar-btn" form-type="submit">
+          <view wx:if="{{item.ordertype == 0}}">
+            <image class = "point" src = 'http://i1.fuimg.com/736358/fe1f48abe0a9ffc1.jpg'></image>
+          </view>
+          <view wx:elif="{{item.ordertype == 1}}">
+            <image class = "point" src = 'http://i1.fuimg.com/736358/3155f14f9a1353f1.jpg'></image>
+          </view>
+          <view wx:elif="{{item.ordertype == 2}}">
+            <image class = "point" src = 'http://i1.fuimg.com/736358/e08f9878ba00247e.jpg'></image>
+          </view>
+          <view wx:else>
+            <image class = "point" src = 'http://i1.fuimg.com/736358/61ab529d7c45f594.jpg'></image>
+          </view>
+        </button>
+      </form>
+
+      <view wx:if="{{item.ordertype == 0}}">
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-takeout" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+      <view wx:elif="{{item.ordertype == 1}}">
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-express" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+      <view wx:elif="{{item.ordertype == 2}}">
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-lunch" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+      <view wx:else>
+        <form bindsubmit="goToDetailPage">
+          <input name="orderId" value="{{item.orderId}}" hidden="true"></input>
+          <button class="nickname-btn-run" form-type="submit">
+            <text class = "tont">目的地: {{item.destination}}   </text>
+            <text class = "tont">佣金: {{item.price}}元  </text>
+          </button>
+        </form>
+      </view>
+    </view>
+  </view>
+</view>
+
+

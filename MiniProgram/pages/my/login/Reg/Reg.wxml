@@ -1,0 +1,21 @@
+<!--pages/my/login/Reg/Reg.wxml-->
+<view>
+  <view class="block-title">
+    <text>\n</text>
+      <text class="title">用户注册 </text>
+  </view>
+</view>
+
+<form bindsubmit="formRegsubmit">
+  <text>\n</text>
+  <input name="requestId" placeholder="请输入学号"></input>
+  <text>\n</text>
+  <input name="requestName" placeholder="请输入用户昵称"></input>
+  <text>\n</text>
+  <input name="requestPass" placeholder="请输入用户密码"></input>
+  <text>\n</text>
+  <input name="requestPhone" placeholder="请输入用户手机号码"></input>
+  <text>\n</text>
+  <button class="btn1" form-type="submit">注册</button>
+  <button class="btn2" form-type="reset">重置</button>
+</form>

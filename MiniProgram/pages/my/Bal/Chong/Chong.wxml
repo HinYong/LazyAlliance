@@ -1,0 +1,20 @@
+<!--pages/my/Bal/Chong/Chong.wxml-->
+
+<view class="title">充值金额</view>
+
+<view class="flexCenten">
+  <view class="btnView">
+    <view class="flexCenten {{activeIndex == index ? 'active':'noactive'}}" wx:for="{{numArray}}" wx:key="index" bindtap="activethis" data-thisindex="{{index}}">
+      <text class="otherText">￥{{item}}</text>
+    </view>
+  </view>
+</view>
+
+<form bindsubmit="charge">
+  <input name="addition" placeholder="自定义金额" value="{{price}}"></input>
+  <button class="btn1" form-type="submit">充值</button>
+</form>
+
+
+
+

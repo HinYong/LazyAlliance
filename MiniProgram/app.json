@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/appeal/appeal",
+    "pages/appeal/appeal/takeout",
+    "pages/appeal/appeal/express",
+    "pages/appeal/appeal/lunch",
+    "pages/appeal/appeal/runservice",
+    "pages/help/help",
+    "pages/help/Detail/Detail",
+    "pages/my/my",
+    "pages/my/login/login",
+    "pages/my/Info/Info",
+    "pages/my/Bal/Bal",
+    "pages/my/Hty/Hty",
+    "pages/my/Rep/Rep",
+    "pages/my/Set/Set",
+    "pages/my/Set/Mima/Mima",
+    "pages/my/Set/Tele/Tele",
+    "pages/my/Set/Yhm/Yhm",
+    "pages/my/Contact/Contact",
+    "pages/my/login/Reg/Reg",
+    "pages/logs/logs",
+    "pages/my/Bal/Chong/Chong",
+    "pages/my/Bal/Tixian/Tixian",
+    "pages/my/Hty/HtyDetail/HtyDetail",
+    "pages/index/indetail/indetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff99bb",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#dddddd"
+  },
+  "tabBar": {
+    "backgroundColor": "#ff99bb",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "消息",
+        "iconPath": "image/message1.png",
+        "selectedIconPath": "image/message.png"
+      },
+      {
+        "pagePath": "pages/appeal/appeal",
+        "text": "求助",
+        "iconPath": "image/find1.png",
+        "selectedIconPath": "image/find.png"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "text": "帮忙",
+        "iconPath": "image/help1.png",
+        "selectedIconPath": "image/help.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "image/mines1.png",
+        "selectedIconPath": "image/mines.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

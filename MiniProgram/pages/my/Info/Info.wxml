@@ -1,0 +1,22 @@
+<!--pages/my/Info/Info.wxml-->
+<view class="main">
+    
+    <view class="mcname">个人信息详情</view>
+    <text >\n</text>
+    <view class="mcinfo">
+        <text class="mctlt">用户名：</text>
+        <text class="mcval">{{userName}}</text>
+    </view>
+    <view class="mcinfo" bindtap="click">
+        <text class="mctlt">用户ID：</text>
+        <text class="mcval">{{userId}}</text>
+    </view>
+    <view class="mcinfo" open-type="contact">
+        <text class="mctlt">手机号码：</text>
+        <text class="mcval">{{phone}}</text>
+    </view>
+    <view class="mcinfo">
+        <text class="mctlt">信誉值：：</text>
+        <text class="mcval">{{reputation}}</text>
+    </view>
+</view>

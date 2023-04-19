@@ -1,0 +1,41 @@
+<view class="user_content">
+  <!--表头-->
+  <view class="user_head">
+    <view class="user_img domain">
+      <view class="userinfo-avatar">账户余额</view>
+      <view class="userinfo_name">￥{{balance}}</view>
+    </view>
+  </view>
+  <view class="user_edit_con" >
+      <view class="user_edit_li" bindtap="goToChongPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/18c70d655ae8e245.png" ></image></view>
+          <view class="tips1">充值</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+      <view class="user_edit_li" bindtap="goToTixianPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/1ce0fd1d9e7d22f1.png" ></image></view>
+          <view class="tips1">提现</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+  </view>
+  <view class="user_edit_con">
+      <view class="user_edit_li" bindtap="goToYhkPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/482ea5c43392c8b4.png" ></image></view>
+          <view class="tips1">银行卡</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+      <view class="user_edit_li" bindtap="goToJiaoyiPage">
+        <view class="user_edit_li_title">
+          <view class="tips1"><image class = "ima" src = "http://i1.fuimg.com/736358/de2035d2276cb5ce.png" ></image></view>
+          <view class="tips1">交易记录</view>
+          <view class="tips2">></view>
+        </view>
+      </view>
+  </view>
+</view>

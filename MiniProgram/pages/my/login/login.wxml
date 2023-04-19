@@ -1,0 +1,20 @@
+<!--pages/my/login/login.wxml-->
+<view>
+  <view class="block-title">
+      <text>\n</text>
+      <text class="title">用户登录 </text>
+      <text>\n\n</text>
+  </view>
+</view>
+
+<form bindsubmit="formloginsubmit">
+  <input name="requestID" placeholder="请输入用户账号"></input>
+  <text>\n</text>
+  <input type="password" name="requestPass" placeholder="请输入用户密码"></input>
+  <text>\n</text>
+  <text>\n</text> 
+  <button class="btn1" form-type="submit" bindtap='login'>登录</button>
+  <text>\n</text>
+  <button class="btn1" form-type="reset" bindtap="goToRegPage">用户注册</button>
+</form>
+ 
